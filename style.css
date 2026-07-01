@@ -1,0 +1,24 @@
+#canvas {
+    height: 50vh;
+    width: 50vh;
+    border: 1px solid black;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 15px;
+}
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+.grid-row {
+    display: flex;
+}
+.grid-unit {
+    box-sizing: border-box;
+    flex-shrink: 1;
+}
